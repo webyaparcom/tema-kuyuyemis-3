@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Sipariş",
+    "en": "Order",
+    "ar": "الطلب"
+  },
+  "status": "play",
+  "category": "",
+  "id": "iletisim",
+  "url": "",
+  "path": "iletisim",
+  "index": 3,
+  "icon": "call",
+  "desing": {
+    "header": [],
+    "body": [
+      "8kvadz",
+      "k8mp01"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Sipariş fişi, adres ve saatler.",
+    "en": "Order slip, address and hours.",
+    "ar": "قسيمة الطلب والعنوان والساعات."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Sipariş",
+    "en": "Order",
+    "ar": "الطلب"
+  },
+  "keyword": {
+    "tr": "iletişim",
+    "en": "contact",
+    "ar": "اتصال"
+  },
+  "text": {},
+  "update": "2026-11-16T20:27:53.587Z",
+  "date": "2026-10-30"
+}

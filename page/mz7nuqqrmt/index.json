@@ -1,0 +1,40 @@
+{
+  "id": "mz7nuqqrmt",
+  "name": {
+    "tr": "Raf",
+    "en": "Shelf",
+    "ar": "الرف"
+  },
+  "description": {
+    "tr": "Hazır keseler ve raf; fiyatlar KDV dahil ve kurgusaldır.",
+    "en": "Ready pouches and the shelf; prices include VAT and are fictional.",
+    "ar": "الأكياس الجاهزة والرف؛ الأسعار شاملة الضريبة وافتراضية."
+  },
+  "keyword": {
+    "tr": "kuruyemiş, kese, fiyat",
+    "en": "nuts, pouch, prices",
+    "ar": "مكسرات، كيس، أسعار"
+  },
+  "path": "hizmetler",
+  "icon": "hexagon",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "hmcpfz",
+      "ezdf75"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Raf",
+    "en": "Shelf",
+    "ar": "الرف"
+  },
+  "date": "2026-11-16T20:20:26.961Z",
+  "update": "2026-11-16T20:27:53.574Z"
+}

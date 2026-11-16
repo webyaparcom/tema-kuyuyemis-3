@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Kavurma",
+    "en": "Roasting",
+    "ar": "التحميص"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "75j6e8",
+      "ezdf75"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Kavurma bandı ve yeni mahsul takvimi (kurgusal).",
+    "en": "The roasting line and the new-crop calendar (fictional).",
+    "ar": "خط التحميص وتقويم المحصول الجديد (افتراضي)."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Kavurma",
+    "en": "Roasting",
+    "ar": "التحميص"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T20:27:53.578Z",
+  "date": "2026-10-30"
+}
