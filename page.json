@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "id": "mz7nuqqrmt",
+      "name": {
+        "tr": "Raf",
+        "en": "Shelf",
+        "ar": "الرف"
+      },
+      "description": {
+        "tr": "Hazır keseler ve raf; fiyatlar KDV dahil ve kurgusaldır.",
+        "en": "Ready pouches and the shelf; prices include VAT and are fictional.",
+        "ar": "الأكياس الجاهزة والرف؛ الأسعار شاملة الضريبة وافتراضية."
+      },
+      "path": "hizmetler",
+      "icon": "hexagon",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "hmcpfz",
+          "ezdf75"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Kavurma",
+        "en": "Roasting",
+        "ar": "التحميص"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "75j6e8",
+          "ezdf75"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Kavurma bandı ve yeni mahsul takvimi (kurgusal).",
+        "en": "The roasting line and the new-crop calendar (fictional).",
+        "ar": "خط التحميص وتقويم المحصول الجديد (افتراضي)."
+      }
+    },
+    {
+      "id": "czcc97i4ky",
+      "name": {
+        "tr": "Yorumlar",
+        "en": "Reviews",
+        "ar": "التقييمات"
+      },
+      "description": {
+        "tr": "Kartpostal yorumlar (kurgusal).",
+        "en": "Postcard reviews (fictional).",
+        "ar": "تقييمات على بطاقات بريدية (افتراضية)."
+      },
+      "path": "referanslar",
+      "icon": "stars",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "l6ojpi",
+          "8kvadz"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "name": {
+        "tr": "Sipariş",
+        "en": "Order",
+        "ar": "الطلب"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 3,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "8kvadz",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Sipariş fişi, adres ve saatler.",
+        "en": "Order slip, address and hours.",
+        "ar": "قسيمة الطلب والعنوان والساعات."
+      }
+    }
+  ],
+  "desc": []
+}

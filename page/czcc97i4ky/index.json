@@ -1,0 +1,40 @@
+{
+  "id": "czcc97i4ky",
+  "name": {
+    "tr": "Yorumlar",
+    "en": "Reviews",
+    "ar": "التقييمات"
+  },
+  "description": {
+    "tr": "Kartpostal yorumlar (kurgusal).",
+    "en": "Postcard reviews (fictional).",
+    "ar": "تقييمات على بطاقات بريدية (افتراضية)."
+  },
+  "keyword": {
+    "tr": "referans, müşteri yorumu",
+    "en": "reference, review",
+    "ar": "مرجع، تقييم"
+  },
+  "path": "referanslar",
+  "icon": "stars",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "l6ojpi",
+      "8kvadz"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Yorumlar",
+    "en": "Reviews",
+    "ar": "التقييمات"
+  },
+  "date": "2026-11-16T20:20:26.971Z",
+  "update": "2026-11-16T20:27:53.582Z"
+}

@@ -1,0 +1,161 @@
+<header class="modulex-ust-damga{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-ust-damga-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</header>
+
+<style>
+  /* ust-damga — Marka bir mühür/etiket gibi başlığa basılmış: üretici, yöresel ürün, el yapımı güveni; logo bloğu ya da rozetten farklı olarak çizgiyi aşan yuvarlak damga. */
+  .modulex-ust-damga { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-ust-damga *, .modulex-ust-damga *::before, .modulex-ust-damga *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-ust-damga :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-ust-damga :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-ust-damga :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-ust-damga :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-ust-damga img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-ust-damga) img { height: auto; }
+  .modulex-ust-damga [hidden] { display: none !important; }
+  .modulex-ust-damga :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-ust-damga :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-ust-damga-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-ust-damga-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-ust-damga--bassiz .modulex-ust-damga-bas { display: none; }
+  .modulex-ust-damga-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-ust-damga-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-ust-damga-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-ust-damga-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-ust-damga-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-ust-damga-dugme:hover { transform: translateY(-2px); }
+  .modulex-ust-damga-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-ust-damga-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-ust-damga-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-ust-damga { position: relative; z-index: 900; }
+  .modulex-ust-damga-logo { display: inline-flex; flex: 0 1 auto; min-width: 0; align-items: center; color: inherit; text-decoration: none; }
+  /* dar ekranda geniş logo/uzun ad çubuğu taşırmasın: logo daralır (img max-width 100%), ad sarar */
+  .modulex-ust-damga-logo img { width: auto; max-height: --logoH--; }
+  .modulex-ust-damga-ad { font-family: var(--mx-font-heading, inherit); font-size: 1.3rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-ust-damga-oge { position: relative; display: inline-flex; align-items: center; min-height: 44px; color: inherit; font-weight: 600; text-decoration: none; transition: color 0.2s ease, background 0.2s ease; }
+  .modulex-ust-damga-oge:hover, .modulex-ust-damga-oge[aria-current="page"] { color: --accentInk--; }
+  .modulex-ust-damga-cta { display: inline-flex; flex: none; align-items: center; gap: 6px; min-height: 44px; padding: 8px 18px; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; white-space: nowrap; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  .modulex-ust-damga-cta:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -12px --accent--; }
+  .modulex-ust-damga-cta .material-symbols-outlined, .modulex-ust-damga-tel .material-symbols-outlined, .modulex-ust-damga-posta .material-symbols-outlined { font-size: 18px; }
+  .modulex-ust-damga-tel, .modulex-ust-damga-posta { display: inline-flex; align-items: center; gap: 6px; color: inherit; text-decoration: none; white-space: nowrap; }
+  .modulex-ust-damga-tel:hover, .modulex-ust-damga-posta:hover { color: --accentInk--; }
+  .modulex-ust-damga-dil:empty { display: none; }
+  .modulex-ust-damga-ac { display: none; align-items: center; gap: 10px; min-width: 46px; min-height: 46px; padding: 0 12px; border: 1px solid --cizgi--; border-radius: 999px; background: transparent; color: inherit; font: inherit; font-weight: 700; }
+  .modulex-ust-damga-ac-ikon { display: grid; gap: 4px; width: 20px; }
+  .modulex-ust-damga-ac-ikon span { display: block; height: 2px; border-radius: 2px; background: currentColor; transition: transform 0.3s ease, opacity 0.3s ease; }
+  .modulex-ust-damga--acik .modulex-ust-damga-ac-ikon span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .modulex-ust-damga--acik .modulex-ust-damga-ac-ikon span:nth-child(2) { opacity: 0; }
+  .modulex-ust-damga--acik .modulex-ust-damga-ac-ikon span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+  .modulex-ust-damga-kapat { display: inline-grid; place-items: center; width: 46px; height: 46px; border: 1px solid --cizgi--; border-radius: 50%; background: transparent; color: inherit; }
+  .modulex-ust-damga-perde { position: fixed; inset: 0; z-index: 1; background: color-mix(in srgb, --text-- 45%, transparent); animation: modulex-ust-damga-sol 0.3s ease both; }
+  @keyframes modulex-ust-damga-sol { from { opacity: 0; } to { opacity: 1; } }
+
+  .modulex-ust-damga-panel { display: grid; gap: 14px; }
+  @media (max-width: 1024px) {
+    .modulex-ust-damga--js .modulex-ust-damga-nav, .modulex-ust-damga--js .modulex-ust-damga-genis { display: none; }
+    .modulex-ust-damga--js .modulex-ust-damga-ac { display: inline-flex; }
+    .modulex-ust-damga-panel { position: absolute; inset-inline: 0; inset-block-start: 100%; padding: 16px 20px 24px; border-block-end: 1px solid --cizgi--; background: --bg--; box-shadow: 0 24px 40px -28px color-mix(in srgb, --text-- 55%, transparent); animation: modulex-ust-damga-in 0.3s ease both; }
+    .modulex-ust-damga-pliste { display: grid; }
+    .modulex-ust-damga-pliste .modulex-ust-damga-oge { width: 100%; min-height: 50px; border-block-end: 1px solid --cizgi--; font-size: 1.05rem; }
+    .modulex-ust-damga-palt { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+  }
+  @media (min-width: 1025px) {
+    .modulex-ust-damga-panel { display: none !important; }
+  }
+  @keyframes modulex-ust-damga-in { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+
+  .modulex-ust-damga-cubuk { position: relative; display: flex; align-items: stretch; gap: 0 28px; min-height: 76px; margin-block-end: 36px; padding-inline-start: 128px; border-block-end: 2px solid --text--; }
+  .modulex-ust-damga-muhur { position: absolute; inset-inline-start: 0; inset-block-start: 4px; z-index: 1; display: grid; place-items: center; width: 104px; aspect-ratio: 1; padding: 16px; border-radius: 50%; background-color: --accent--; color: --accentText--; box-shadow: 0 0 0 5px --bg--, 0 14px 30px -16px color-mix(in srgb, --text-- 60%, transparent); text-align: center; }
+  .modulex-ust-damga-muhur::before { content: ""; position: absolute; inset: 7px; border: 1.5px dashed currentColor; border-radius: 50%; opacity: 0.75; transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  .modulex-ust-damga-muhur:hover::before, .modulex-ust-damga-muhur:focus-within::before { transform: rotate(120deg); }
+  .modulex-ust-damga-muhur .modulex-ust-damga-logo { position: relative; justify-content: center; max-width: 100%; }
+  .modulex-ust-damga-muhur .modulex-ust-damga-logo img { max-height: 38px; }
+  .modulex-ust-damga-muhur .modulex-ust-damga-ad { font-size: 0.82rem; letter-spacing: 0.05em; line-height: 1.15; overflow-wrap: anywhere; text-transform: uppercase; }
+  .modulex-ust-damga-nav { display: flex; }
+  .modulex-ust-damga-dliste { display: flex; flex-wrap: wrap; align-items: stretch; gap: 0 26px; }
+  .modulex-ust-damga-dliste > li { display: flex; }
+  .modulex-ust-damga-dliste .modulex-ust-damga-oge { height: 100%; font-weight: 700; letter-spacing: 0.02em; }
+  .modulex-ust-damga-dliste .modulex-ust-damga-oge::after { content: ""; position: absolute; inset-inline: 0; inset-block-end: -2px; height: 6px; background-color: --accent--; transform: scaleY(0); transform-origin: bottom; transition: transform 0.25s ease; }
+  .modulex-ust-damga-dliste .modulex-ust-damga-oge:hover::after, .modulex-ust-damga-dliste .modulex-ust-damga-oge[aria-current="page"]::after { transform: none; }
+  .modulex-ust-damga-cubuk > .modulex-ust-damga-son { display: flex; align-items: center; gap: 12px; margin-inline-start: auto; }
+  .modulex-ust-damga-genis { display: flex; align-items: center; gap: 16px; }
+  .modulex-ust-damga-genis .modulex-ust-damga-tel { font-weight: 700; font-variant-numeric: tabular-nums; }
+  @media (max-width: 1024px) {
+    .modulex-ust-damga-cubuk { min-height: 64px; margin-block-end: 24px; padding-inline-start: 96px; }
+    .modulex-ust-damga-muhur { width: 82px; padding: 12px; }
+    .modulex-ust-damga-muhur .modulex-ust-damga-logo img { max-height: 28px; }
+    .modulex-ust-damga:not(.modulex-ust-damga--js) .modulex-ust-damga-cubuk { flex-wrap: wrap; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ust-damga :is(.modulex-ust-damga-baslik, .modulex-ust-damga-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ust-damga-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-ust-damga { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-ust-damga *, .modulex-ust-damga *::before, .modulex-ust-damga *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-ust-damga";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const cekmece = (s, P) => {
+          const ac = s.querySelector("." + P + "-ac");
+          const panel = ac ? document.getElementById(ac.getAttribute("aria-controls")) : null;
+          if (!ac || !panel) return;
+          s.classList.add(P + "--js");
+          const perde = s.querySelector("." + P + "-perde");
+          const modal = panel.getAttribute("aria-modal") === "true";
+          const kok = document.documentElement;
+          const kapa = (odak) => {
+            if (panel.hidden) return;
+            panel.hidden = true;
+            if (perde) perde.hidden = true;
+            ac.setAttribute("aria-expanded", "false");
+            s.classList.remove(P + "--acik");
+            if (modal) kok.style.overflow = "";
+            if (odak) ac.focus();
+          };
+          const aci = () => {
+            panel.hidden = false;
+            if (perde) perde.hidden = false;
+            ac.setAttribute("aria-expanded", "true");
+            s.classList.add(P + "--acik");
+            if (modal) kok.style.overflow = "hidden";
+            const ilk = panel.querySelector("a[href], button");
+            if (ilk) ilk.focus();
+          };
+          ac.addEventListener("click", () => (panel.hidden ? aci() : kapa(true)));
+          panel.addEventListener("click", (e) => {
+            if (e.target.closest("." + P + "-kapat")) kapa(true);
+            else if (e.target.closest("a[href]")) kapa(false);
+          });
+          if (perde) perde.addEventListener("click", () => kapa(true));
+          document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !panel.hidden) kapa(true); });
+          if (modal) {
+            panel.addEventListener("keydown", (e) => {
+              if (e.key !== "Tab") return;
+              const o = [...panel.querySelectorAll("a[href], button:not([disabled])")].filter((x) => x.offsetParent !== null);
+              if (!o.length) return;
+              if (e.shiftKey && document.activeElement === o[0]) { e.preventDefault(); o[o.length - 1].focus(); }
+              else if (!e.shiftKey && document.activeElement === o[o.length - 1]) { e.preventDefault(); o[0].focus(); }
+            });
+          }
+          const g = Number(ac.dataset.genis);
+          if (g && window.matchMedia) window.matchMedia(`(min-width: ${g}px)`).addEventListener("change", (m) => { if (m.matches) kapa(false); });
+        };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      cekmece(s, P, az);
+    });
+  })();
+</script>
