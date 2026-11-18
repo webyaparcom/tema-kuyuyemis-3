@@ -3,17 +3,23 @@
   "name": {
     "tr": "Raf",
     "en": "Shelf",
-    "ar": "الرف"
+    "ar": "الرف",
+    "de": "Regal",
+    "ru": "Полка"
   },
   "description": {
     "tr": "Hazır keseler ve raf; fiyatlar KDV dahil ve kurgusaldır.",
     "en": "Ready pouches and the shelf; prices include VAT and are fictional.",
-    "ar": "الأكياس الجاهزة والرف؛ الأسعار شاملة الضريبة وافتراضية."
+    "ar": "الأكياس الجاهزة والرف؛ الأسعار شاملة الضريبة وافتراضية.",
+    "de": "Fertige Peelinghandschuhe und Regal; Preise inklusive MwSt. und fiktiv.",
+    "ru": "Готовые рукавицы для пилинга и полка; цены с НДС и вымышленные."
   },
   "keyword": {
     "tr": "kuruyemiş, kese, fiyat",
     "en": "nuts, pouch, prices",
-    "ar": "مكسرات، كيس، أسعار"
+    "ar": "مكسرات، كيس، أسعار",
+    "de": "Nüsse, Beutel, Preis",
+    "ru": "орехи, пакетик, цена"
   },
   "path": "hizmetler",
   "icon": "hexagon",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Raf",
     "en": "Shelf",
-    "ar": "الرف"
+    "ar": "الرف",
+    "de": "Regal",
+    "ru": "Полка"
   },
   "date": "2026-11-16T20:20:26.961Z",
   "update": "2026-11-16T20:27:53.574Z"

@@ -2,7 +2,9 @@
   "name": {
     "tr": "Kavurma",
     "en": "Roasting",
-    "ar": "التحميص"
+    "ar": "التحميص",
+    "de": "Röstung",
+    "ru": "Обжарка"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Kavurma bandı ve yeni mahsul takvimi (kurgusal).",
     "en": "The roasting line and the new-crop calendar (fictional).",
-    "ar": "خط التحميص وتقويم المحصول الجديد (افتراضي)."
+    "ar": "خط التحميص وتقويم المحصول الجديد (افتراضي).",
+    "de": "Röstband und Kalender der neuen Ernte (fiktiv).",
+    "ru": "Линия обжарки и календарь нового урожая (вымышленно)."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Kavurma",
     "en": "Roasting",
-    "ar": "التحميص"
+    "ar": "التحميص",
+    "de": "Röstung",
+    "ru": "Обжарка"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T20:27:53.578Z",

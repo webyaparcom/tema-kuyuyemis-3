@@ -4,12 +4,16 @@
   "description": {
     "tr": "Kese Kuruyemiş: Kemeraltı’nda her sabah kavrulan fıstık, fındık, leblebi ve kabak çekirdeği; hazır keseler, gramla karışık ve WhatsApp’tan sipariş fişi. Demo site; fiyatlar kurgusaldır.",
     "en": "Kese Nuts: pistachios, hazelnuts, roasted chickpeas and pumpkin seeds roasted every morning in Kemeralti; ready pouches, mixes by the gram and an order slip via WhatsApp. Demo site; prices are fictional.",
-    "ar": "كيسه للمكسرات: فستق وبندق وحمص محمّص وبذور يقطين تُحمَّص كل صباح في كمرألتي؛ أكياس جاهزة وخلطات بالغرام وقسيمة طلب عبر واتساب. موقع تجريبي؛ الأسعار افتراضية."
+    "ar": "كيسه للمكسرات: فستق وبندق وحمص محمّص وبذور يقطين تُحمَّص كل صباح في كمرألتي؛ أكياس جاهزة وخلطات بالغرام وقسيمة طلب عبر واتساب. موقع تجريبي؛ الأسعار افتراضية.",
+    "de": "Kese Kuruyemiş: Pistazien, Haselnüsse, Leblebi und Kürbiskerne, jeden Morgen in Kemeralt geröstet; fertige Beutel, Mischungen nach Gramm und Bestellformular per WhatsApp. Demo-Seite; Preise sind fiktiv.",
+    "ru": "Kese Kuruyemiş: фисташки, фундук, леблеби и тыквенные семечки, обжариваемые каждое утро в Кемералты; готовые пакеты, смеси по граммам и заказ через WhatsApp. Демо-сайт; цены вымышлены."
   },
   "keyword": {
     "tr": "kuruyemiş, Antep fıstığı, leblebi, karışık çerez, Kemeraltı, İzmir",
     "en": "nuts, pistachios, roasted chickpeas, mixed nuts, Kemeralti, Izmir",
-    "ar": "مكسرات، فستق حلبي، حمص محمّص، مكسرات مشكّلة، كمرألتي، إزمير"
+    "ar": "مكسرات، فستق حلبي، حمص محمّص، مكسرات مشكّلة، كمرألتي، إزمير",
+    "de": "Nüsse, Pistazien, gebratene Kichererbsen, gemischte Nüsse, Kemeraltı, Izmir",
+    "ru": "орехи, фисташки, жареный нут, смешанные орехи, Кемералты, Измир"
   },
   "category": "Kurumsal",
   "name": "Kese Kuruyemiş",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

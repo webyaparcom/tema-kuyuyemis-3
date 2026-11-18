@@ -5,12 +5,16 @@
       "name": {
         "tr": "Raf",
         "en": "Shelf",
-        "ar": "الرف"
+        "ar": "الرف",
+        "de": "Regal",
+        "ru": "Полка"
       },
       "description": {
         "tr": "Hazır keseler ve raf; fiyatlar KDV dahil ve kurgusaldır.",
         "en": "Ready pouches and the shelf; prices include VAT and are fictional.",
-        "ar": "الأكياس الجاهزة والرف؛ الأسعار شاملة الضريبة وافتراضية."
+        "ar": "الأكياس الجاهزة والرف؛ الأسعار شاملة الضريبة وافتراضية.",
+        "de": "Fertige Peelinghandschuhe und Regal; Preise inklusive MwSt. und fiktiv.",
+        "ru": "Готовые рукавицы для пилинга и полка; цены с НДС и вымышленные."
       },
       "path": "hizmetler",
       "icon": "hexagon",
@@ -30,7 +34,9 @@
       "name": {
         "tr": "Kavurma",
         "en": "Roasting",
-        "ar": "التحميص"
+        "ar": "التحميص",
+        "de": "Röstung",
+        "ru": "Обжарка"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -51,7 +57,9 @@
       "description": {
         "tr": "Kavurma bandı ve yeni mahsul takvimi (kurgusal).",
         "en": "The roasting line and the new-crop calendar (fictional).",
-        "ar": "خط التحميص وتقويم المحصول الجديد (افتراضي)."
+        "ar": "خط التحميص وتقويم المحصول الجديد (افتراضي).",
+        "de": "Röstband und Kalender der neuen Ernte (fiktiv).",
+        "ru": "Линия обжарки и календарь нового урожая (вымышленно)."
       }
     },
     {
@@ -59,12 +67,16 @@
       "name": {
         "tr": "Yorumlar",
         "en": "Reviews",
-        "ar": "التقييمات"
+        "ar": "التقييمات",
+        "de": "Bewertungen",
+        "ru": "Отзывы"
       },
       "description": {
         "tr": "Kartpostal yorumlar (kurgusal).",
         "en": "Postcard reviews (fictional).",
-        "ar": "تقييمات على بطاقات بريدية (افتراضية)."
+        "ar": "تقييمات على بطاقات بريدية (افتراضية).",
+        "de": "Postkarten-Bewertungen (fiktiv).",
+        "ru": "Отзывы на открытках (вымышленные)."
       },
       "path": "referanslar",
       "icon": "stars",
@@ -84,7 +96,9 @@
       "name": {
         "tr": "Sipariş",
         "en": "Order",
-        "ar": "الطلب"
+        "ar": "الطلب",
+        "de": "Bestellung",
+        "ru": "Заказ"
       },
       "status": "play",
       "id": "iletisim",
@@ -105,7 +119,9 @@
       "description": {
         "tr": "Sipariş fişi, adres ve saatler.",
         "en": "Order slip, address and hours.",
-        "ar": "قسيمة الطلب والعنوان والساعات."
+        "ar": "قسيمة الطلب والعنوان والساعات.",
+        "de": "Bestellschein, Adresse und Zeiten.",
+        "ru": "Заказ, адрес и часы работы."
       }
     }
   ],
