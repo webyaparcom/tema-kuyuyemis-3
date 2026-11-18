@@ -2,7 +2,9 @@
   "name": {
     "tr": "Sipariş",
     "en": "Order",
-    "ar": "الطلب"
+    "ar": "الطلب",
+    "de": "Bestellung",
+    "ru": "Заказ"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Sipariş fişi, adres ve saatler.",
     "en": "Order slip, address and hours.",
-    "ar": "قسيمة الطلب والعنوان والساعات."
+    "ar": "قسيمة الطلب والعنوان والساعات.",
+    "de": "Bestellschein, Adresse und Zeiten.",
+    "ru": "Заказ, адрес и часы работы."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Sipariş",
     "en": "Order",
-    "ar": "الطلب"
+    "ar": "الطلب",
+    "de": "Bestellung",
+    "ru": "Заказ"
   },
   "keyword": {
     "tr": "iletişim",
     "en": "contact",
-    "ar": "اتصال"
+    "ar": "اتصال",
+    "de": "Kontakt",
+    "ru": "контакты"
   },
   "text": {},
   "update": "2026-11-16T20:27:53.587Z",

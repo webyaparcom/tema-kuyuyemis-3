@@ -3,17 +3,23 @@
   "name": {
     "tr": "Yorumlar",
     "en": "Reviews",
-    "ar": "التقييمات"
+    "ar": "التقييمات",
+    "de": "Bewertungen",
+    "ru": "Отзывы"
   },
   "description": {
     "tr": "Kartpostal yorumlar (kurgusal).",
     "en": "Postcard reviews (fictional).",
-    "ar": "تقييمات على بطاقات بريدية (افتراضية)."
+    "ar": "تقييمات على بطاقات بريدية (افتراضية).",
+    "de": "Postkarten-Bewertungen (fiktiv).",
+    "ru": "Отзывы на открытках (вымышленные)."
   },
   "keyword": {
     "tr": "referans, müşteri yorumu",
     "en": "reference, review",
-    "ar": "مرجع، تقييم"
+    "ar": "مرجع، تقييم",
+    "de": "Referenz, Kundenbewertung",
+    "ru": "рекомендация, отзыв клиента"
   },
   "path": "referanslar",
   "icon": "stars",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Yorumlar",
     "en": "Reviews",
-    "ar": "التقييمات"
+    "ar": "التقييمات",
+    "de": "Bewertungen",
+    "ru": "Отзывы"
   },
   "date": "2026-11-16T20:20:26.971Z",
   "update": "2026-11-16T20:27:53.582Z"
